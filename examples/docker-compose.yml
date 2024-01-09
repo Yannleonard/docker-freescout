@@ -79,9 +79,4 @@ services:
     restart: always
 
 
-networks:
-  proxy-tier:
-    external: true
-      name: nginx-proxy
-
 
