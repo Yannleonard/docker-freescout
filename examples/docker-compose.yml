@@ -16,11 +16,11 @@ services:
     #- ./modules:/www/html/Modules
     - ./logs/:/www/logs
     environment:
-    - VIRTUAL_HOST=support.gtek-it.fr
+    - VIRTUAL_HOST=support.xxxxxx.fr
     - VIRTUAL_NETWORK=nginx-proxy
     - VIRTUAL_PORT=80
-    - LETSENCRYPT_HOST=support.gtek-it.fr
-    - LETSENCRYPT_EMAIL=support@gtek-it.fr
+    - LETSENCRYPT_HOST=support.xxxxx.fr
+    - LETSENCRYPT_EMAIL=support@xxxxxxx.fr
 
     - CONTAINER_NAME=freescout-app
     
