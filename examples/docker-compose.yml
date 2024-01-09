@@ -29,9 +29,9 @@ services:
     - DB_USER=freescout
     - DB_PASS=freescout
 
-    - SITE_URL=https://support.gtek-it.fr
-    - ADMIN_EMAIL=support@gtek-it.fr
-    - ADMIN_PASS=Arz+Vannes56!
+    - SITE_URL=https://support.xxxxxxxx.fr
+    - ADMIN_EMAIL=support@xxxxxxxx.fr
+    - ADMIN_PASS=xxxxxxxxxxxxx
     - ENABLE_SSL_PROXY=TRUE
     - DISPLAY_ERRORS=FALSE
     - TIMEZONE=Europe/Paris
