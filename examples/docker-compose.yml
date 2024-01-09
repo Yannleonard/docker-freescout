@@ -81,7 +81,7 @@ services:
 
 networks:
   proxy-tier:
-    external:
+    external: true
       name: nginx-proxy
 
 
